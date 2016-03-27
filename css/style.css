@@ -1,0 +1,96 @@
+html, body{
+ min-height: 100%;
+ }
+html{
+ height: 100%;
+}
+body {
+	font-family: Arial, sans-serif;
+	background: #F1F1F1;
+	margin: 0;
+	color: #C2C2C2;
+}
+.huge {
+	max-width: 1200px;
+	margin: 30px auto;
+}
+/*It does not align in the middle*/
+.huge-search{
+	padding: 0;
+	margin: 0;
+	width: 80%;
+	color: #C1C1C1;
+	font-size: 100px;
+	color: #ec5a62;
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	background: #F1F1F1;
+}
+.huge-button{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	background: #F1F1F1;
+	border: none;
+}
+.main {
+	margin-top: 30px;
+}
+.people {
+	width: 29%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.popular {
+	width: 29%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.recent{
+	width: 29%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.popular {
+	margin: 0 1%;
+	box-sizing: border-box;
+}
+.main h2{
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.main a {
+	display: block;
+	background-color: #EBEBED;
+	color: #C2C2C2;
+	text-decoration: none;
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 5px;
+	transition: all .1s ease-in;
+}
+.people img {
+	border-radius: 50%;
+}
+.people ul, .popular ul, .recent ul {
+	list-style: none;
+	padding: 0;
+}
+.people img, .popular img, .recent img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.people h3, .popular h3, .recent h3 {
+	display: inline-block;
+ 	width: calc(100% - 65px);
+ 	vertical-align: middle;
+ 	word-wrap: break-word;
+ 	font-size: 14px;
+}
+.main a:hover{
+	color: #ec5a62;
+	background-color: #E4E4E6;
+	transition: all .1s ease-in;
+}
