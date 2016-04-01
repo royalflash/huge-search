@@ -5,16 +5,16 @@ html{
  height: 100%;
 }
 body {
-	font-family: Arial, sans-serif;
+	font: 14px/1.3 Arial, sans-serif;
 	background: #F1F1F1;
 	margin: 0;
 	color: #C2C2C2;
 }
-.huge {
-	max-width: 1200px;
+.ba-huge-search {
+	max-width: 1000px;
 	margin: 30px auto;
+	display: block;
 }
-/*It does not align in the middle*/
 .huge-search{
 	padding: 0;
 	margin: 0;
@@ -28,32 +28,36 @@ body {
 	background: #F1F1F1;
 }
 .huge-button{
+	background-image: url(../images/magnifier.svg);
 	width: 80px;
 	height: 80px;
 	display: inline-block;
 	vertical-align: middle;
-	background: #F1F1F1;
 	border: none;
+	background-color: transparent;
 }
 .main {
 	margin-top: 30px;
 }
-.people {
+.ba-people {
 	width: 29%;
+	vertical-align: top;
 	display: inline-block;
 	box-sizing: border-box;
 }
-.popular {
+.ba-popular {
 	width: 29%;
+	vertical-align: top;
 	display: inline-block;
 	box-sizing: border-box;
 }
-.recent{
+.ba-recent{
 	width: 29%;
+	vertical-align: top;
 	display: inline-block;
 	box-sizing: border-box;
 }
-.popular {
+.ba-popular {
 	margin: 0 1%;
 	box-sizing: border-box;
 }
@@ -71,18 +75,18 @@ body {
 	border-radius: 5px;
 	transition: all .1s ease-in;
 }
-.people img {
+.ba-people img {
 	border-radius: 50%;
 }
-.people ul, .popular ul, .recent ul {
+.results {
 	list-style: none;
 	padding: 0;
 }
-.people img, .popular img, .recent img {
+.ba-people img, .ba-popular img, .ba-recent img {
 	display: inline-block;
 	vertical-align: middle;
 }
-.people h3, .popular h3, .recent h3 {
+h3 {
 	display: inline-block;
  	width: calc(100% - 65px);
  	vertical-align: middle;
